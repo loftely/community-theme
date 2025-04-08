@@ -1,0 +1,16 @@
+{
+  "Loftely": {
+    "primary": "030712",
+    "secondary": "fff",
+    "tertiary": "cd663f",
+    "quaternary": "009689",
+    "header_background": "fff",
+    "header_primary": "030712",
+    "highlight": "fe9a00",
+    "danger": "ec003f",
+    "success": "009689",
+    "love": "ff2056",
+    "selected": "ffede5",
+    "hover": "f3f4f6"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Loftely",
+  "authors": "Loftely",
+  "about_url": "https://www.loftely.com",
+  "license_url": "https://opensource.org/licenses/MIT",
+  "learn_more": "Loftely is a SaaS application to manage rental ressources.",
+  "theme_version": "0.0.1",
+  "minimum_discourse_version": null,
+  "maximum_discourse_version": null,
+  "assets": {},
+  "modifiers": {},
+  "color_schemes": {}
+}

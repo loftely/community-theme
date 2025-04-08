@@ -1,0 +1,9 @@
+bg_sidebar_cta:
+  type: upload
+  default: ""
+  description: Image de fond pour le bloc sidebar
+
+logo_black:
+  type: upload
+  default: ""
+  description: Logo noir dans le bloc sidebar
