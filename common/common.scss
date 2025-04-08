@@ -106,6 +106,7 @@ Sidebar
     .sidebar-sections {
       padding-right: 0;
       padding-left: 0;
+      padding-top: 0.5rem;
     }
 
   }
@@ -217,6 +218,7 @@ input[type=text], input[type=password], input[type=datetime], input[type=datetim
 Hide items
  */
 
+.post-info.edits .widget-button,
 .nav-pills > li a.active::after, .nav-pills > li button.active::after,
 .more-topics__container .more-topics__list .topic-list-header::after,
 .powered-by-discourse,
@@ -795,16 +797,13 @@ Pages: Profile
 Header menu
  */
 
-.top-menu .submenu-link:hover {
-  background: var(--color-gray-100)
-}
-
 .top-menu .menu-item {
   font-size: 14px;
 }
 
 .top-menu .menu-item:hover .d-header-dropdown .d-dropdown-menu {
   border-radius: 8px;
+  overflow: hidden;
 }
 
 /**
@@ -842,4 +841,17 @@ Search
       background-color: var(--color-gray-100);
     }
   }
+}
+
+/**
+Users
+ */
+
+.user-card .badge-section .user-badge, .user-card .badge-section .more-user-badges a,
+.user-card .names__primary a, .user-card .names__secondary a, .group-card .names__primary a, .group-card .names__secondary a {
+  color: var(--tertiary);
+}
+
+.user-card .badge-section .user-badge, .user-card .badge-section .more-user-badges a {
+  border-radius: 4px;
 }
