@@ -790,3 +790,56 @@ Pages: Profile
   }
 
 }
+
+/**
+Header menu
+ */
+
+.top-menu .submenu-link:hover {
+  background: var(--color-gray-100)
+}
+
+.top-menu .menu-item {
+  font-size: 14px;
+}
+
+.top-menu .menu-item:hover .d-header-dropdown .d-dropdown-menu {
+  border-radius: 8px;
+}
+
+/**
+Tags
+ */
+
+.discourse-tag.box {
+  font-size: 12px;
+  border-radius: 50px;
+  background-color: var(--color-gray-100);
+}
+
+/**
+Search
+ */
+
+.search-header--visible .floating-search-input .search-banner-inner.wrap .search-menu {
+  .search-input {
+    border-radius: 50px;
+    #search-term {
+      font-size: 14px;
+    }
+  }
+  .searching .show-advanced-search {
+    display: none !important;
+  }
+  .search-icon {
+    padding-left: 8px;
+    padding-top: 4px;
+  }
+  .search-link {
+    font-size: 14px;
+    border-radius: 8px;
+    &:hover {
+      background-color: var(--color-gray-100);
+    }
+  }
+}
