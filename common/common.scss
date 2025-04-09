@@ -26,6 +26,9 @@
   --color-gray-600: #4a5565;
   --color-gray-700: #364153;
 
+  --color-red-500: #ff2056;
+  --color-red-600: #ec003f;
+
   --linear-gradient-1: linear-gradient(170deg, #6C321B, #FF9B6C);
 
   --text-xs: 12px;
@@ -180,6 +183,10 @@ Typography
   font-size: var(--text-sm) !important;
   color: var(--color-gray-500);
   font-weight: 500;
+}
+
+.empty-state {
+  color: var(--color-gray-500);
 }
 
 #topic-title h1 a {
@@ -444,6 +451,10 @@ ul#navigation-bar > li > a.active {
 Components: Dropdown
  */
 
+.select-kit.single-select.dropdown-select-box .select-kit-row .texts .name {
+  color: var(--tertiary);
+}
+
 .select-kit.is-expanded .select-kit-body {
   display: flex;
   flex-direction: column;
@@ -573,7 +584,7 @@ nav.post-controls button.show-post-admin-menu,
 .top-section.replies-and-topics-section p,
 .top-section.badges-section a.more,
 .btn-danger, .json-editor-btn-delete, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-delete,
-.btn:not(.fk-d-menu__trigger):not(.sidebar-section-header), .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add,
+.btn:not(.fk-d-menu__trigger):not(.sidebar-section-header):not(.notifications-tracking-btn), .d-modal.json-schema-editor-modal .je-ready button, .d-modal.json-schema-editor-modal .je-ready .json-editor-btn-add,
 .private_message .btn.remove-invited {
   border-radius: 32px;
   display: flex;
@@ -638,6 +649,7 @@ Components: Modals
 
 }
 
+.fk-d-menu.-animated[data-placement^=top],
 .fk-d-menu .fk-d-menu__inner-content {
   border-radius: 8px;
   box-shadow: var(--shadow-lg);
@@ -847,6 +859,7 @@ Search
 Users
  */
 
+.user-menu .quick-access-panel .item-label, .user-notifications-list .item-label,
 .user-card .badge-section .user-badge, .user-card .badge-section .more-user-badges a,
 .user-card .names__primary a, .user-card .names__secondary a, .group-card .names__primary a, .group-card .names__secondary a {
   color: var(--tertiary);
@@ -854,4 +867,8 @@ Users
 
 .user-card .badge-section .user-badge, .user-card .badge-section .more-user-badges a {
   border-radius: 4px;
+}
+
+.logout .profile-tab-btn > * {
+  color: var(--color-red-600) !important;
 }
